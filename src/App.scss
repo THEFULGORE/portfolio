@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+:root {
+	--background-color: #1b1b1b;
+	--background-color-darker: #0f0f0f;
+	--main-color: #ffd60a;
+	--main-color-darker: #ffd60a9f;
+	--second-color: #ffc300;
+}
+
+@font-face {
+	font-family: 'Halvar Breit Blk';
+	src: url('fonts/HalvarBreit-Bd.eot');
+	src: local('Halvar Breitschrift Black Slanted'), local('HalvarBreit-BlkSlanted'),
+		url('fonts/HalvarBreit-Bd.eot?#iefix') format('embedded-opentype'),
+		url('fonts/HalvarBreit-Bd.woff2') format('woff2'),
+		url('fonts/HalvarBreit-Bd.woff') format('woff'),
+		url('fonts/HalvarBreit-Bd.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+body {
+	margin: 0;
+	font-family: 'Halvar Breit Blk', 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont,
+		'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--background-color);
+	color: white;
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: start;
+}
+
+.App {
+	text-align: center;
+	height: 100vh;
+}
+
+.container {
+	height: 100vh;
+	scroll-snap-type: y mandatory;
+}
+
+.bg-animation {
+	position: absolute;
+	z-index: -1;
+	height: 100vh;
+	width: 100vw;
+}

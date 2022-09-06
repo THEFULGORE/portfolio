@@ -1,0 +1,21 @@
+.projects {
+	flex-direction: column;
+	padding: 2rem 4rem;
+	&__title {
+		overflow: hidden;
+		margin-bottom: 1rem;
+		h1 {
+			font-size: 2rem;
+			color: var(--main-color);
+			text-transform: uppercase;
+		}
+	}
+	&__container {
+		width: 100%;
+		height: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr 1fr;
+		gap: 2rem;
+	}
+}
