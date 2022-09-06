@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c0a57ee4.css",
+    "main.js": "/portfolio/static/js/main.e60703fa.js",
+    "static/media/HalvarBreit-Bd.eot": "/portfolio/static/media/HalvarBreit-Bd.6d8302590693fdf2a610.eot",
+    "static/media/HalvarBreit-Bd.ttf": "/portfolio/static/media/HalvarBreit-Bd.dda777ffa9c3295a956d.ttf",
+    "static/media/HalvarBreit-Bd.woff": "/portfolio/static/media/HalvarBreit-Bd.d21a350df6175b087763.woff",
+    "static/media/HalvarBreit-Bd.woff2": "/portfolio/static/media/HalvarBreit-Bd.ed601a778947baf03a3f.woff2",
+    "static/media/pintail.svg": "/portfolio/static/media/pintail.620ec258bcf3482a5d1b6b839645abde.svg",
+    "static/media/oudly.svg": "/portfolio/static/media/oudly.13eb48dff1944157ccd2b31b3348468a.svg",
+    "static/media/coinfluence.svg": "/portfolio/static/media/coinfluence.8dcba77d65b1e98e7627393c8f28728a.svg",
+    "static/media/todoser.svg": "/portfolio/static/media/todoser.aadcf41e64aba857d539213be1801bab.svg",
+    "static/media/sorto.svg": "/portfolio/static/media/sorto.7ff4f791a1f79345a0fbb7d0001a8a9f.svg",
+    "static/media/windivo.svg": "/portfolio/static/media/windivo.aea6fb071bbf9aa1fdea23f0ba127def.svg",
+    "index.html": "/portfolio/index.html",
+    "main.c0a57ee4.css.map": "/portfolio/static/css/main.c0a57ee4.css.map",
+    "main.e60703fa.js.map": "/portfolio/static/js/main.e60703fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0a57ee4.css",
+    "static/js/main.e60703fa.js"
+  ]
+}
