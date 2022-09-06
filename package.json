@@ -1,4 +1,5 @@
 {
+  "homepage": "https://thefulgore.github.io/portfolio",
   "name": "threejs",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +16,12 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "sass": "^1.54.5",
-    "swiper": "^8.3.2",
     "three": "^0.143.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
